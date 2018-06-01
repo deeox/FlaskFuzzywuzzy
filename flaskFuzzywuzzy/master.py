@@ -3,7 +3,7 @@ from fuzzywuzzy import fuzz
 
 app = Flask(__name__)
 
-
+#Added a random comment
 @app.route('/results')
 def correct(val1, val2, A, B, C, D):
     return render_template("results.html", value1=val1, value2=val2, A=A, B=B, C=C, D=D)
